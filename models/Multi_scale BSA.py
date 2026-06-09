@@ -76,7 +76,7 @@ class ChannelAttention(nn.Module):
         
         x = self.proj(x)
         x = self.proj_drop(x)
-        return q, x 
+        return x 
 
 
 class ChannelTransformerBlock(nn.Module):
